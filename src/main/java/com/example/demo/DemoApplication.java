@@ -7,6 +7,10 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+/**
+ * Driver function.
+ * Build war file that can be deployed in Tomcat.
+ */
 @SpringBootApplication
 @RestController
 public class DemoApplication  extends SpringBootServletInitializer {
